@@ -18,8 +18,7 @@ int main() {
 
     int num = 12; // 0000 0000 0000 0000 0000 0000 0000 1100
 
-    cout << count_set(num) << ' ' << count_unset(num);
+    cout << count_set(num, memo) << ' ' << count_unset(num);
 
     return 0;
 }
-

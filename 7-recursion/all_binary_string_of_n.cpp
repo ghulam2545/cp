@@ -24,7 +24,7 @@ int main() {
 
     solve(3, 0, ans, s);
 
-    cout << ans.size() << '\n';
+    cout << ans.size(, memo) << '\n';
     for (auto &e : ans)
         cout << e << '\n';
 
